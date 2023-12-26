@@ -53,22 +53,10 @@ public class LoginController {
         }
 
     }
-    @PostMapping("/genearetetoken")
+
     @GetMapping("/myAccount")
     public String myAccount(){
         return "My Account Page";
-    }
-    @GetMapping("/myBalance")
-    public String myBalance(){
-        return "My Balance Page";
-    }
-    @GetMapping("/myLoans")
-    public String myLoans(){
-        return "My Loans Page";
-    }
-    @GetMapping("/myCards")
-    public String myCards(){
-        return "My Cards Page";
     }
     @GetMapping("/notices")
     public String notice(){
